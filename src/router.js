@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import input from '@/views/input.vue'
 import cta from '@/views/cta.vue'
 import dlog from '@/views/dlog.vue'
+import bank from '@/views/bank.vue'
 
 
 Vue.use(Router)
@@ -25,6 +26,11 @@ export default new Router({
       path: '/dlog',
       name: 'dlog',
       component: dlog
+    },
+    {
+      path: '/bank',
+      name: 'bank',
+      component: bank
     },
   ]
 })
