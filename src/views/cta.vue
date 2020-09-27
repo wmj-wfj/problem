@@ -40,6 +40,12 @@ methods:{
       };
       reader.readAsDataURL(file); //将文件编码成Data Url
     },
+    upload(){
+      let params={
+        
+      }
+      let param=JSON.stringify(params)
+    }
 },
 }
 </script>
