@@ -1,5 +1,5 @@
 <template>
-<!-- 点击更换头像 -->
+<!-- 更换头像  （更换为base64码格式）-->
 <div class="img">
         <img alt :src="info" class='myimg'/>
         <input
