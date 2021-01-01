@@ -3,9 +3,10 @@ import Router from 'vue-router'
 import input from '@/views/input.vue' //点击按钮更改input里面的内容演示
 import avatar from '@/views/avatar.vue' //更换头像 （更换为base64码格式）
 import avatar1 from '@/views/avatar1.vue' //更换头像 （转化为blob格式）
-import qqLogin from '@/views/qqLogin.vue' //QQ登录
+import qqlogin from '@/views/qqlogin.vue' //QQ登录
 import dlog from '@/views/dlog.vue' //点击显示头像
 import bank from '@/views/bank.vue' //下拉刷新
+import Code from '@/views/验证码倒计时.vue'//验证倒计时
 
 
 Vue.use(Router)
@@ -39,9 +40,14 @@ export default new Router({
             component: bank
         },
         {
-            path: '/qqLogin',
-            name: 'qqLogin',
-            component: qqLogin
+            path: '/qqlogin',
+            name: 'qqlogin',
+            component: qqlogin
+        },
+        {
+            path: '/Code',
+            name: 'Code',
+            component: Code
         },
 
     ]
